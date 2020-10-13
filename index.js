@@ -38,7 +38,6 @@ app.use('/api', router);
 
 // langkah 2
 
-const PORT = process.env.PORT || '2000'
-app.listen(PORT, () => {
-    console.log(`App listens to port ${PORT}`);
-})
+app.listen(process.env.PORT, () => {
+    console.log(`App listens to port ${process.env.PORT}`);
+});
